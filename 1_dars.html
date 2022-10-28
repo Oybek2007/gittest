@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registeration Form</title>
+    <link href="1_dars.css" rel="stylesheet">
+</head>
+<body>
+    <div class="orqafon">
+        <div class="korinmasfon">
+            <form action="https://google.com" method="POST">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="student">
+                    Student Registeration Form
+                </h1>
+    
+                <br>
+                <hr>
+                <br>
+    
+
+
+                <div class="korinmasfonichi1">
+                    <label for="firtname">
+                        Fisrtname:
+                    </label>
+                    <br>
+                    <input class="ismlarinput" type="text" name="Ism" id="firtname" placeholder="Firstname" required>
+
+                    
+
+                    <br>
+                    <br>
+
+                    <label for="middlename">
+                        Middlename:
+                    </label>
+                    <br>
+                    <input class="ismlarinput" type="text" name="otasiniIsm" id="middlename" placeholder="Middlename" required>
+
+                    <br>
+                    <br>
+
+                    <label for="lastname">
+                        Lastname:
+                    </label>
+                    <br>
+                    <input class="ismlarinput" type="text" name="familya" id="lastname" placeholder="Lastname" required>
+
+                    <br>
+                    <br>
+
+                    <label for="selekt">
+                        Course:
+                    </label>
+                    <select id="selekt" required>
+                        <option>
+                            Course
+                        </option>
+                        <option>
+                            Lesson
+                        </option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label>
+                        Gander:
+                    </label>
+                    <br>
+                    <input type="radio" id="male" name="jins" value="erkak" required><label for="male">Male</label>
+                    <input type="radio" id="female" name="jins" value="ayol" required><label for="female">Female</label>
+                    <input type="radio" id="other" name="jins" value="boshqa" required><label for="other">Other</label>
+                    
+                    <br>
+                    <br>
+
+                    <label for="tel">
+                        Phone:
+                    </label>
+                    <br>
+                    <input type="tel" id="tel" class="raqamlar" name="kodshekilli" placeholder="+998" required pattern="[+]{1}[0-9]{1}[0-9]{1}[0-9]{1}">
+                    <br>
+                    <br>
+
+                    <label for="tel_no">
+                        Phone no:
+                    </label>
+                    <br>
+                    <input type="tel" id="tel_no" class="raqamlar" name="raqam" placeholder="94-123-45-67" required pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+                </div>
+
+
+
+                <div class="korinmasfon2" style="margin-left: 850px;margin-top: -555px;">
+                    <label for="manzil">
+                        Current Addres:
+                    </label>
+                    <br>
+                    <textarea style="max-width: 100%; max-height: 200px;width: 50%; height: 100px;" name="manzil" id="manzil" rows="2" cols="0" placeholder="Manzilingizni kiriting..." required></textarea>
+
+                    <br>
+                    <br>
+
+                    <label for="email">
+                        <b>
+                            Email:
+                        </b>
+                    </label>
+                    <br>
+                    <input type="email" id="email" name="email" class="sorovlar" placeholder="Enter Email">
+
+                    <br>
+                    <br>
+
+                    <label for="password">
+                        <b>
+                            Password:
+                        </b>
+                    </label>
+                    <br>
+                    <input type="password" id="password" name="Password" class="sorovlar" placeholder="Password">
+
+                    <br>
+                    <br>
+
+                    <label for="repassword">
+                        <b>
+                            Re-type Password:
+                        </b>
+                    </label>
+                    <br>
+                    <input type="password" id="repassword" name="Password" class="sorovlar" placeholder="Retype Password">
+
+                    <br>
+                    <br>
+
+                    <div style="margin-left: 50px;">
+                        <button type="reset" class="reset" name="reset">
+                            Reset
+                        </button>
+    
+                        <br>
+                        <br>
+    
+                        <button type="submit" name="submit" class="submit" id="submitBtn">
+                            Register
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sinov tariqasida qilingan!!! -->
+
+                <!-- <label for="ariza">
+                    Ariza yozish
+                </label>
+                <textarea class="ariza" name="Ariza yozmoq" rows="4" cols="0" lang="Eng">
+                    
+                </textarea> -->
+
+                <!-- <a href="mailto:umuhtaraliyev@gmail.com">
+                    <button>
+                        Akamning gmailga yuborish
+                    </button>
+                </a> -->
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
